@@ -1,0 +1,35 @@
+.navBar {
+  background-color: #3367d6;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchBox {
+  display: flex;
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  border-radius: 5px;
+  height: 45px;
+  width: 400px;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+.searchBox input {
+  height: 40px;
+  width: 400px;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+}
+.searchResultsContainer {
+  background-color: #fff;
+}
+.noItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
